@@ -26,11 +26,15 @@ Running git init in an existing repository is safe. It will not overwrite things
 
 ---
 
-## Проверка состояния репозитория 
+## Status checking 
 
-Чтобы проверить состояние репозитория нужно ввести команду:
+Use the command below to see the working tree status:
 
     git status
+
+Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git. 
+
+The first are what you would commit by running **<span style="color:#ffff00"> git</span> commit***; the second and third are what you could commit by running **<span style="color:#ffff00"> git</span> add*** before running git commit.
 
 ## Добавление изменений в индекс
 
