@@ -120,9 +120,11 @@ You can go to any commit you see in log. All you need is commit hashcode and ano
 
     git checkout 
 
-Put down commit hashcode (enough 4-6 symbols) after aforementioned command and you'll switch to specified commit.
+Put down commit hashcode (enough 4-6 symbols) after aforementioned command and you'll switch to specified commit. For example, 
 
-Current version you're working with now marked as <span style="color:#00BFFF"> <span style="color:#FFFF00"> (</span>HEAD<span style="color:#FFFF00">)</span></span>
+    git checkout 3f4daa
+
+Current version you're working with now is marked as <span style="color:#00BFFF"> <span style="color:#FFFF00"> (</span>HEAD<span style="color:#FFFF00">)</span></span>
 
 To go back to the latest actual version and continue your work use: 
 
@@ -142,7 +144,29 @@ You can also use both arguments:
 
     git log -- oneline -- all
 
-As a result you will see entire commits list in it's short version.
+As a result you will see an entire commits list in it's short version.
+
+## ![Icon](icon.png) What is the difference?
+
+Imagine you work hard all nigth long, you are almost finished, added your changes to index and decided to make a cup of coffee before the final shoot...
+And after you came back, you found out that you didn't commit last changes!
+
+Don't panic. Use:
+
+    git diff
+
+This command shows you the difference between last complieted commit and the index.
+
+You can also use 
+
+    git diff hash1 hash2 
+
+to compare different commits.
+
+Note, using __*hash1*__ **hash2** you see how the second commit differ from the first.
+
+Using __*hash2*__ **hash1** you get how the first commit differ from the second. 
+
 
 
 
