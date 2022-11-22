@@ -124,7 +124,7 @@ Put down commit hashcode (enough 4-6 symbols) after aforementioned command and y
 
 Current version you're working with now marked as <span style="color:#00BFFF"> <span style="color:#FFFF00"> (</span>HEAD<span style="color:#FFFF00">)</span></span>
 
-To go back to the latest actual version use 
+To go back to the latest actual version and continue your work use: 
 
     git checkout master
 
