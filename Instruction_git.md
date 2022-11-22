@@ -84,6 +84,25 @@ This syntax combines git add and git commit -m commands.
 
 **<span style="color:#CD5C5C"> Be careful</span>** - **ALL** files and changes will be commited.
 
+---
+
+## Changes list review
+
+Git allows you to look through all saved changes and even shift betweem whem.
+
+All changes you've made (commited) recorded in changes list called log.
+
+To look through log, use command:
+
+    git log
+
+The output is given in reverse chronological order by default and contains info about commits that are reachable by following the parent links from the given commit.
+
+Full log info shows you data about commits: hash number, author, date and message. 
+
+---
+
+
 
 
 
