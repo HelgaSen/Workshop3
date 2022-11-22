@@ -102,7 +102,12 @@ Full log info shows you data about commits: hash number, author, date and messag
 
 ---
 
+## Git log command options
 
+If it is no need to look through info about authors and dates git allows you to get a short log version which only contains short hashcode and commit message. To get it use command with special attribute:
+
+    git log --oneline
+    
 
 
 
