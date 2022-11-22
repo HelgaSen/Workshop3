@@ -52,5 +52,17 @@ The "index" holds a snapshot of the content of the working tree, and it is this 
 
 This command can be performed multiple times before a commit.
 
-## 
+## Recording changes
+
+To save changes added to the index, use command:
+
+    git commit
+
+To make your actions clear for you and others, it is necessary to make log message describing the changes. Rigth syntax for this command is:
+    
+    git commit -m "commit massage"
+
+That will be great if you'll make your commit message short, clear and simple.
+
+
 
