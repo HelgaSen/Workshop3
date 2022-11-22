@@ -1,4 +1,4 @@
-# **Инструкция по использованию системы контроля версий GIT**
+# **Version control system GIT. How to use.** 
 
 ## Что такое GIT?
 
