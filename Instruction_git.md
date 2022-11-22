@@ -38,8 +38,19 @@ The first are what you would commit by running **<span style="color:#ffff00"> gi
 
  <font size = 1> \* Read below for more details about this commands</font>
 
-## Добавление изменений в индекс
+ ---
 
-Чтобы добавить изменение в индекс для следующего коммита, нужно ввести команду:
+## Updating the index
+
+To add file contents to the index, use command:
 
     git add <filename>
+
+This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
+
+The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit.
+
+This command can be performed multiple times before a commit.
+
+## 
+
