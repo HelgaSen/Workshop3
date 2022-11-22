@@ -88,7 +88,7 @@ This syntax combines git add and git commit -m commands.
 
 ## Changes list review
 
-Git allows you to look through all saved changes and even shift betweem whem.
+Git allows you to look through all saved changes and even shift betweem them.
 
 All changes you've made (commited) recorded in changes list called log.
 
@@ -108,6 +108,25 @@ If it is no need to look through info about authors and dates git allows you to 
 
     git log --oneline
     
+## "Versions jumping"
+
+Git allows you to switch between different versions of the project file. All commits you've made connected in git. Working area in certain place of repository called working **tree**.
+
+You can observ working tree through git log.
+
+The latest actual version marked as <span style="color:#00FA9A"> <span style="color:#FFFF00"> (</span>master<span style="color:#FFFF00">)</span></span>
+
+You can go to any commit you see in log. All you need is commit hashcode and another useful command:
+
+    git checkout 
+
+Put down commit hashcode (enough 4-6 symbols) after aforementioned command and you'll switch to specified commit.
+
+Current version you're working with now marked as <span style="color:#00BFFF"> <span style="color:#FFFF00"> (</span>HEAD<span style="color:#FFFF00">)</span></span>
+
+To go back to the latest actual version use 
+
+    git checkout master
 
 
 
