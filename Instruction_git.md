@@ -36,6 +36,8 @@ Displays paths that have differences between the index file and the current HEAD
 
 The first are what you would commit by running **<span style="color:#ffff00"> git</span> commit***; the second and third are what you could commit by running **<span style="color:#ffff00"> git</span> add*** before running git commit.
 
+ <font size = 1> \* Read below for more details about this commands</font>
+
 ## Добавление изменений в индекс
 
 Чтобы добавить изменение в индекс для следующего коммита, нужно ввести команду:
