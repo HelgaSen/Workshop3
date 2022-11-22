@@ -88,7 +88,7 @@ This syntax combines git add and git commit -m commands.
 
 ## ![Icon](icon.png)Changes list review
 
-Git allows you to look through all saved changes and even shift betweem them.
+Git allows you to look through all saved changes and even switch betweem them.
 
 All changes you've made (commited) recorded in changes list called log.
 
