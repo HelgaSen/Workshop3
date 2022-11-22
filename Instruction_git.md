@@ -52,6 +52,8 @@ The "index" holds a snapshot of the content of the working tree, and it is this 
 
 This command can be performed multiple times before a commit.
 
+---
+
 ## Recording changes
 
 To save changes added to the index, use command:
@@ -63,6 +65,19 @@ To make your actions clear for you and others, it is necessary to make log messa
     git commit -m "commit massage"
 
 That will be great if you'll make your commit message short, clear and simple.
+
+---
+
+## Git commit command options
+
+In some cases - for making our work with git simpler and quicker - we can use special options of commit command:
+
+    git commit -a
+
+This command automatically stage files that have been modified and deleted, **BUT** new files you have not told Git about are not affected.
+
+---
+
 
 
 
