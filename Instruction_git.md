@@ -16,11 +16,15 @@ in the terminal.
 
 ---
 
-## Инициализация репозитория
+## Repository initialization
 
-Чтобы инициализировать (создать) новый репозиторий нужно ввести в терминале команду:
+To create an empty Git repository or reinitialize an existing one, use command:
 
     git init
+
+Running git init in an existing repository is safe. It will not overwrite things that are already there. The primary reason for rerunning git init is to pick up newly added templates.
+
+---
 
 ## Проверка состояния репозитория 
 
