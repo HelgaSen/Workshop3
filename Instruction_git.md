@@ -4,19 +4,19 @@
 
 Git is free and open source software for distributed version control: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 
-**Git is a version control system that developers use all over the world.**
+ **Git is a version control system that developers use all over the world.**
 
 You can use GIT with VS Code or similar programm.
 
 In order to check if you already have Git installed on your computer you can type the command 
 
     git version 
-    
+ 
 in the terminal.
 
 ---
 
-## Repository initialization
+## ![Icon](icon.png) Repository initialization
 
 To create an empty Git repository or reinitialize an existing one, use command:
 
@@ -26,7 +26,7 @@ Running git init in an existing repository is safe. It will not overwrite things
 
 ---
 
-## Status checking 
+## ![Icon](icon.png) Status checking 
 
 Use the command below to see the working tree status:
 
@@ -40,7 +40,7 @@ The first are what you would commit by running **<span style="color:#ffff00"> gi
 
  ---
 
-## Updating the index
+## ![Icon](icon.png) Updating the index
 
 To add file contents to the index, use command:
 
@@ -54,7 +54,7 @@ This command can be performed multiple times before a commit.
 
 ---
 
-## Recording changes
+## ![Icon](icon.png) Recording changes
 
 To save changes added to the index, use command:
 
@@ -68,7 +68,7 @@ That will be great if you'll make your commit message short, clear and simple.
 
 ---
 
-## Git commit command options
+## ![Icon](icon.png) Git commit command options
 
 In some cases - for making our work with git simpler and quicker - we can use special options of commit command. For example, "-a", "all":
 
@@ -86,7 +86,7 @@ This syntax combines git add and git commit -m commands.
 
 ---
 
-## Changes list review
+## ![Icon](icon.png)Changes list review
 
 Git allows you to look through all saved changes and even shift betweem them.
 
@@ -102,13 +102,13 @@ Full log info shows you data about commits: hash number, author, date and messag
 
 ---
 
-## Git log command options
+## ![Icon](icon.png) Git log command options
 
 If it is no need to look through info about authors and dates git allows you to get a short log version which only contains short hashcode and commit message. To get it use command with special attribute:
 
     git log --oneline
     
-## "Versions jumping"
+## ![Icon](icon.png) "Versions jumping"
 
 Git allows you to switch between different versions of the project file. All commits you've made connected in git. Working area in certain place of repository called working **tree**.
 
@@ -127,6 +127,22 @@ Current version you're working with now marked as <span style="color:#00BFFF"> <
 To go back to the latest actual version and continue your work use: 
 
     git checkout master
+
+## ![Icon](icon.png) Git log command options \#2
+
+Now you now how to switch file versions. For example, you went to one of the earliest version. It could be useful to have an apportunity to see the future - see what you or your collegues had alredy done. But if you use git log command after switching to earlier version, you will see onle part of log - from the very begginig to version there you are now.
+
+To see all changes despite your current "place" use:
+
+    git log --all
+
+This argument shows you all log, where you current version would be marked as  <span style="color:#00BFFF"> <span style="color:#FFFF00"> (</span>HEAD<span style="color:#FFFF00">)</span></span>   
+
+You can also use both arguments:
+
+    git log -- oneline -- all
+
+As a result you will see entire commits list in it's short version.
 
 
 
