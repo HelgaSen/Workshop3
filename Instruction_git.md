@@ -70,13 +70,20 @@ That will be great if you'll make your commit message short, clear and simple.
 
 ## Git commit command options
 
-In some cases - for making our work with git simpler and quicker - we can use special options of commit command:
+In some cases - for making our work with git simpler and quicker - we can use special options of commit command. For example, "-a", "all":
 
     git commit -a
 
-This command automatically stage files that have been modified and deleted, **BUT** new files you have not told Git about are not affected.
+This command automatically stage **ALL** files that have been modified and deleted, **BUT** new files you have not told Git about are not affected. 
 
----
+Another useful option for git commit command is:
+
+    git commit -am
+
+This syntax combines git add and git commit -m commands. 
+
+**<span style="color:#CD5C5C"> Be careful</span>** - **ALL** files and changes will be commited.
+
 
 
 
