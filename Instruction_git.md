@@ -1,4 +1,4 @@
-# **Version control system GIT. How to use.** 
+# <img src=https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png width="30"> **Version control system GIT. How to use.** 
 
 ## Что такое GIT?
 
