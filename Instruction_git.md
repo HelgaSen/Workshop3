@@ -1,8 +1,8 @@
 # <img src=https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png width="30"> **Version control system GIT. How to use.** 
 
-## Что такое GIT?
+## What is <span style="color:#f14e32"> GIT</span>?
 
-Программа GIT - это ...добавить краткое описание
+Git is free and open source software for distributed version control: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 
 ## Инициализация репозитория
 
