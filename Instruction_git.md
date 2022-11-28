@@ -168,7 +168,7 @@ Note, using __*hash1*__ **hash2** you see how the second commit differ from the 
 Using __*hash2*__ **hash1** you get how the first commit differ from the second. 
 
 
-## Git and images
+## ![Icon](icon.png) Git and images
 
 If you have a beautiful picture on your computer and want to add it in your *.md file, you need to place it in git tracked repository (folder) and use structure below:
 
@@ -190,6 +190,6 @@ Go to gitignore and type in image file name. Save and commit it. Done - git won'
 
 You can use gitignore not only for images, but what ever you want git to ignore.
 
-## Branching
+## ![Icon](icon.png) Branching
 
 
