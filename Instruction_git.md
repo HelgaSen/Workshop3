@@ -197,3 +197,7 @@ Branches in Git are used for
 ### Branches merge
 
 To push changes from one branch to another...
+
+#### Merge conflicts
+
+If the same string/text in different file versions typed different then you will face conflict when trying merging.
