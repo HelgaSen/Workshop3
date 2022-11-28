@@ -170,11 +170,25 @@ Using __*hash2*__ **hash1** you get how the first commit differ from the second.
 
 ## Git and images
 
-GIT предназначен для работы с текстовыми файлами и это то в чем он действительно хорош. Поэтому, чтобы гит не отслеживал файлы изображений, 
-которые хранятся локально, лучше добавлять файлы изображений в специаальный файл шитигнор.
+If you have a beautiful picture on your computer and want to add it in your *.md file, you need to place it in git tracked repository (folder) and use structure below:
+
+    ![Replacing_text](image_file_name)
+
+*Replacing_text* - it is what you see if program can't reach image file path.
+
+*image_file_name* - name of file, which was placed into tracked repository. Watch the register!
 
 ![GitFamilyLogos](image.png)
 
+GIT was made for changes  tracking in text files. And that it is brilliant in. It isn't used to track image files. It takes loads of memory and mistakes are possible. So, to avoid valueless efforts it is better to use special file __gitignore__.
+
+You can create it with help of VSCode explorer. It is important to put dot before typing "gitignore". 
+
+Don't forget to commit gitignore creation. 
+
+Go to gitignore and type in image file name. Save and commit it. Done - git won't track image file.
+
+You can use gitignore not only for images, but what ever you want git to ignore.
 
 
 
