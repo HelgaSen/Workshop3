@@ -206,6 +206,14 @@ Be careful choosing _branch_name_ it would be great if name of the branch tell y
 
 ### ![Icon](icon2.png) Branches switching
 
+After you have created a new branch, you need to switch to it. 
+To do this use
+
+    git checkout <branch_name>
+
+To go back to main branch use
+
+    git checkout master
 
 
 ### ![Icon](icon2.png) Branches merge
