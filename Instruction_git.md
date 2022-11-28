@@ -207,7 +207,7 @@ Sound usefull, does it?
 
 Let's find out how it works. 
 
- ### ![Icon](icon2.png) New branch creating
+ ### ![Icon2](icon2.png) New branch creating
 
 To create a new branch use
 
@@ -223,7 +223,7 @@ with no additional options.
 
 Current branch marked with (*)
 
-### ![Icon](icon2.png) Branches switching
+### ![Icon2](icon2.png) Branches switching
 
 After you have created a new branch, you need to switch to it. 
 To do this use
@@ -234,7 +234,7 @@ To go back to main branch use
 
     git checkout master
 
-### ![Icon](icon2.png) Branches merge
+### ![Icon2](icon2.png) Branches merge
 
 To push changes from one branch to another use command
 
@@ -267,7 +267,7 @@ It is more comfortable to use several attributes together. For example,
 
     git log -- oneline --all --graph
 
-### ![Icon](icon2.png) Branch deleting
+### ![Icon2](icon2.png) Branch deleting
 
 When the work is done and accepted you can delete branches you don't need any more. To do this use 
 
