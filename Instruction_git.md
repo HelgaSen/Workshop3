@@ -168,6 +168,14 @@ Note, using __*hash1*__ **hash2** you see how the second commit differ from the 
 Using __*hash2*__ **hash1** you get how the first commit differ from the second. 
 
 
+## Git and images
+
+GIT предназначен для работы с текстовыми файлами и это то в чем он действительно хорош. Поэтому, чтобы гит не отслеживал файлы изображений, 
+которые хранятся локально, лучше добавлять файлы изображений в специаальный файл шитигнор.
+
+![GitFamilyLogos](image.png)
+
+
 
 
 
