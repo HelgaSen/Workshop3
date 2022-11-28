@@ -107,6 +107,8 @@ Full log info shows you data about commits: hash number, author, date and messag
 If it is no need to look through info about authors and dates git allows you to get a short log version which only contains short hashcode and commit message. To get it use command with special attribute:
 
     git log --oneline
+
+---
     
 ## ![Icon](icon.png) "Versions jumping"
 
@@ -130,6 +132,8 @@ To go back to the latest actual version and continue your work use:
 
     git checkout master
 
+---
+
 ## ![Icon](icon.png) Git log command options \#2
 
 Now you now how to switch file versions. For example, you went to one of the earliest version. It could be useful to have an apportunity to see the future - see what you or your collegues had alredy done. But if you use git log command after switching to earlier version, you will see onle part of log - from the very begginig to version there you are now.
@@ -145,6 +149,8 @@ You can also use both arguments:
     git log -- oneline -- all
 
 As a result you will see an entire commits list in it's short version.
+
+---
 
 ## ![Icon](icon.png) What is the difference?
 
@@ -167,6 +173,7 @@ Note, using __*hash1*__ **hash2** you see how the second commit differ from the 
 
 Using __*hash2*__ **hash1** you get how the first commit differ from the second. 
 
+---
 
 ## ![Icon](icon.png) Git and images
 
@@ -190,18 +197,19 @@ Go to gitignore and type in image file name. Save and commit it. Done - git won'
 
 You can use gitignore not only for images, but what ever you want git to ignore.
 
+---
+
 ## ![Icon](icon.png) Branching
 
 Branches in Git are used for encapsulating changes.
 
 Branches in Git are used for encapsulating changes. In Git, branches are a part of everyday development process.  When you want to add a new feature or fix a bug — no matter how big or how small — you spawn a new branch. Meanwhile, actual version of your product is working. You will improve it after testing and debuging current developing part. 
+
 Sound usefull, does it?
+
 Let's find out how it works. 
 
-### ![Icon](icon2.png) New branch creating.
-
-
-### ![Icon](icon2.png) New branch creating
+ ### ![Icon](icon2.png) New branch creating
 
 To create a new branch use
 
@@ -220,7 +228,6 @@ To go back to main branch use
 
     git checkout master
 
-
 ### ![Icon](icon2.png) Branches merge
 
 To push changes from one branch to another use command
@@ -231,10 +238,11 @@ Changes will come from branch named in git merge command to branch where you are
 
 **Be careful** to push changes from \<branch_name> to master, you must go to master branch first. Use git checkout master.
 
-
 #### Merge conflicts
 
 If the same string/text in different file versions typed different then you will face conflict when trying merging.
+
+---
 
 ## ![Icon](icon.png) Git log command options \#3
 
