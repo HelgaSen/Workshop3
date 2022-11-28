@@ -200,6 +200,7 @@ To create a new branch use
 
     git brabch <branch_name>
 
+Be careful choosing _branch_name_ it would be great if name of the branch tell your collegues what part of your job in there.
 
 ### ![Icon](icon2.png) Branches merge
 
