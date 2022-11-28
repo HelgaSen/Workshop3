@@ -223,3 +223,5 @@ To push changes from one branch to another...
 #### Merge conflicts
 
 If the same string/text in different file versions typed different then you will face conflict when trying merging.
+
+## ![Icon](icon.png) Git log command options \#3
