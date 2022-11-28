@@ -218,7 +218,11 @@ To go back to main branch use
 
 ### ![Icon](icon2.png) Branches merge
 
-To push changes from one branch to another...
+To push changes from one branch to another use command
+
+    git merge <branch_name>
+
+**Be careful** to push changes from \<branch_name> to master, you must go to master branch first. Use git checkout master.
 
 #### Merge conflicts
 
@@ -229,4 +233,5 @@ If the same string/text in different file versions typed different then you will
 For better understanding of branching you can use another helpful option/attribute for __git log__ command. Use
 
     git log --graph
+
 
