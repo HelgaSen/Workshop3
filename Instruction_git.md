@@ -215,6 +215,14 @@ To create a new branch use
 
 Be careful choosing _branch_name_ it would be great if name of the branch tell your collegues what part of your job in there.
 
+If you want to see entire branches list use
+
+    git branch
+
+with no additional options.
+
+Current branch marked with (*)
+
 ### ![Icon](icon2.png) Branches switching
 
 After you have created a new branch, you need to switch to it. 
