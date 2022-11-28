@@ -194,10 +194,56 @@ You can use gitignore not only for images, but what ever you want git to ignore.
 
 Branches in Git are used for encapsulating changes.
 
+Branches in Git are used for encapsulating changes. In Git, branches are a part of everyday development process.  When you want to add a new feature or fix a bug — no matter how big or how small — you spawn a new branch. Meanwhile, actual version of your product is working. You will improve it after testing and debuging current developing part. 
+Sound usefull, does it?
+Let's find out how it works. 
+
+### ![Icon](icon2.png) New branch creating.
+
+
+### ![Icon](icon2.png) New branch creating
+
+To create a new branch use
+
+    git brabch <branch_name>
+
+Be careful choosing _branch_name_ it would be great if name of the branch tell your collegues what part of your job in there.
+
+### ![Icon](icon2.png) Branches switching
+
+After you have created a new branch, you need to switch to it. 
+To do this use
+
+    git checkout <branch_name>
+
+To go back to main branch use
+
+    git checkout master
+
+
 ### ![Icon](icon2.png) Branches merge
 
-To push changes from one branch to another...
+To push changes from one branch to another use command
+
+    git merge <branch_name>
+
+Changes will come from branch named in git merge command to branch where you are now.
+
+**Be careful** to push changes from \<branch_name> to master, you must go to master branch first. Use git checkout master.
+
 
 #### Merge conflicts
 
 If the same string/text in different file versions typed different then you will face conflict when trying merging.
+
+## ![Icon](icon.png) Git log command options \#3
+
+For better understanding of branching you can use another helpful option/attribute for __git log__ command. Use
+
+    git log --graph
+
+It is more comfortable to use several attributes together. For example,
+
+    git log -- oneline --all --graph
+
+
