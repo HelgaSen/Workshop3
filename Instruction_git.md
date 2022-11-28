@@ -230,3 +230,8 @@ For better understanding of branching you can use another helpful option/attribu
 
     git log --graph
 
+It is more comfortable to use several attributes together. For example,
+
+    git log -- oneline --all --graph
+
+
