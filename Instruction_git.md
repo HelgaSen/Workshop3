@@ -193,3 +193,5 @@ You can use gitignore not only for images, but what ever you want git to ignore.
 ## ![Icon](icon.png) Branching
 
 Branches in Git are used for
+
+### Branches merge
