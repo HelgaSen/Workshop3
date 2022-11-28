@@ -236,11 +236,18 @@ To push changes from one branch to another use command
 
 Changes will come from branch named in git merge command to branch where you are now.
 
-**Be careful** to push changes from \<branch_name> to master, you must go to master branch first. Use git checkout master.
+**<span style="color:#CD5C5C"> Be careful!</span>**  To push changes from \<branch_name> to master, you must go to master branch first. Use git checkout master.
 
-#### Merge conflicts
+#### **Merge conflicts**
 
-If the same string/text in different file versions typed different then you will face conflict when trying merging.
+If the same string/text in different file versions typed different, then you will face conflict when trying merging.
+
+In VSCode programm you have 4 preset options to resolve this conflicts:
+
+- *Accept current changes* (refuse to accept info from merging branch)
+- *Accept incoming changes* (update info in upstream branch with info from merging branch. Original info from upstream branch will be lost)
+- *Accept both changes* (both streams will be shown in upstream branch, you need to edit it yourself)
+- *Compare changes*  (programm shows you differences in another tab, you should compare and pick up the right option in original tab)
 
 ---
 
@@ -253,5 +260,14 @@ For better understanding of branching you can use another helpful option/attribu
 It is more comfortable to use several attributes together. For example,
 
     git log -- oneline --all --graph
+
+### ![Icon](icon2.png) Branch deleting
+
+When the work is done and accepted you can delete branches you don't need any more. To do this use 
+
+    git branch -d
+
+**<span style="color:#CD5C5C"> Be careful!</span>**  The branch must be fully merged in its upstream branch. It is important to type small letter, otherwise you will kill forcely your unmerged job.
+
 
 
