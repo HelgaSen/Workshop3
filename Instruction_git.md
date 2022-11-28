@@ -275,5 +275,10 @@ When the work is done and accepted you can delete branches you don't need any mo
 
 **<span style="color:#CD5C5C"> Be careful!</span>**  The branch must be fully merged in its upstream branch. It is important to type small letter, otherwise you will kill forcely your unmerged job.
 
+## ![Icon](icon.png) Remote repositories
+
+Remote repositories are versions of your project that are hosted on the Internet or network somewhere, mostly on __GitHub__.
+
+Collaborating with others involves managing these remote repositories and pushing and pulling data to and from them when you need to share work.
 
 
