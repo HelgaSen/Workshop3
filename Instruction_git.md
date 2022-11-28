@@ -223,3 +223,10 @@ To push changes from one branch to another...
 #### Merge conflicts
 
 If the same string/text in different file versions typed different then you will face conflict when trying merging.
+
+## ![Icon](icon.png) Git log command options \#3
+
+For better understanding of branching you can use another helpful option/attribute for __git log__ command. Use
+
+    git log --graph
+
