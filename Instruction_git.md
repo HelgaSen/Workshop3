@@ -282,3 +282,8 @@ Remote repositories are versions of your project that are hosted on the Internet
 Collaborating with others involves managing these remote repositories and pushing and pulling data to and from them when you need to share work.
 
 Remote repositories are extremely useful!!!
+
+### Связывание локального репозитория с удаленным
+
+Чтобы связать...
+
