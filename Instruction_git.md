@@ -190,6 +190,6 @@ Go to gitignore and type in image file name. Save and commit it. Done - git won'
 
 You can use gitignore not only for images, but what ever you want git to ignore.
 
-
+## Branching
 
 
