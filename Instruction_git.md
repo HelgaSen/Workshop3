@@ -237,10 +237,12 @@ If the same string/text in different file versions typed different, then you wil
 
 In VSCode programm you have 4 preset options to resolve this conflicts:
 
-- Accept current changes
-- Accept incoming changes
-- Accept both changes
-- Compare changes
+- *Accept current changes* (refuse to accept info from merging branch)
+- *Accept incoming changes* (update info in upstream branch with info from merging branch. Original info from upstream branch will be lost)
+- *Accept both changes* (both streams will be shown in upstream branch, you need to edit it yourself)
+- *Compare changes*  (programm shows you differences, you should pick up the right one)
+
+---
 
 ## ![Icon](icon.png) Git log command options \#3
 
