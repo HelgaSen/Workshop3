@@ -194,7 +194,12 @@ You can use gitignore not only for images, but what ever you want git to ignore.
 
 Branches in Git are used for
 
-Branches in Git are used for encapsulating changes. In Git, branches are a part of everyday development process.  When you want to add a new feature or fix a bug — no matter how big or how small — you spawn a new branch.
+Branches in Git are used for encapsulating changes. In Git, branches are a part of everyday development process.  When you want to add a new feature or fix a bug — no matter how big or how small — you spawn a new branch. Meanwhile, actual version of your product is working. You will improve it after testing and debuging current developing part. 
+Sound usefull, does it?
+Let's find out how it works. 
+
+### ![Icon](icon2.png) New branch creating.
+
 
 To create a new branch use
 
