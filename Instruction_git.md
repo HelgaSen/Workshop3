@@ -218,7 +218,14 @@ To go back to main branch use
 
 ### ![Icon](icon2.png) Branches merge
 
-To push changes from one branch to another...
+To push changes from one branch to another use command
+
+    git merge <branch_name>
+
+Changes will come from branch named in git merge command to branch where you are now.
+
+**Be careful** to push changes from \<branch_name> to master, you must go to master branch first. Use git checkout master.
+
 
 #### Merge conflicts
 
