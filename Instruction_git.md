@@ -194,7 +194,7 @@ You can use gitignore not only for images, but what ever you want git to ignore.
 
 Branches in Git are used for
 
-### Branches merge
+### ![Icon](icon2.png) Branches merge
 
 To push changes from one branch to another...
 
