@@ -246,4 +246,13 @@ It is more comfortable to use several attributes together. For example,
 
     git log -- oneline --all --graph
 
+### ![Icon](icon2.png) Branch deleting
+
+When the work is done and accepted you can delete branches you don't need any more. To do this use 
+
+    git branch -d
+
+The branch must be fully merged in its upstream branch. It is important to type small letter, otherwise you will kill forcely your unmerged job.
+
+
 
