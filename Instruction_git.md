@@ -204,6 +204,10 @@ To create a new branch use
 
 Be careful choosing _branch_name_ it would be great if name of the branch tell your collegues what part of your job in there.
 
+### ![Icon](icon2.png) Branches switching
+
+
+
 ### ![Icon](icon2.png) Branches merge
 
 To push changes from one branch to another...
